@@ -22,17 +22,29 @@ Proje Dosyasını İndirin veya Kopyalayın: Projenin tüm dosyalarını bir kla
 IDE'yi Açın: Eclipse, IntelliJ IDEA gibi bir Java IDE'si kullanarak projeyi açın.
 Main.java Sınıfını Çalıştırın: Main.java sınıfını çalıştırarak terminal üzerinden kullanıcı etkileşimine başlayabilirsiniz.
 Menüden Seçim Yapın: Çalışmaya başladığınızda terminalde size çeşitli seçenekler sunulacaktır. Bu seçenekleri takip ederek yeni müşteri, film, salon ekleyebilir ve işlemlerinizi gerçekleştirebilirsiniz.
+
 ---------------------------------Kullanıcı Menüsü---------------------------------
+
 Program çalıştırıldığında aşağıdaki menü seçenekleri ile karşılaşacaksınız:
----------------------------------
+
+----------------------------------------------------------------------------------
+
 1- Yeni Müşteri Ekle
+
 2- Yeni Film Ekle
+
 3- Yeni Salon Ekle
+
 4- Filmleri Listele
+
 5- Salon Müşteri Listesi
+
 6- Müşteri Film Kaydı Yap
+
 7- Bir Filmin Müşteri Listesi
+
 8- Çıkış
+
 -----------------------------------------------------------------------------------
 1. Yeni Müşteri Ekle:
 Müşteri adı, e-posta ve telefon bilgileri girilir ve yeni müşteri sisteme eklenir.
@@ -59,24 +71,33 @@ Bir film için kaydolan müşterilerin listesi görüntülenir.
 Programdan çıkılır.
 
 Sınıf Açıklamaları
+
 ---------------------------------
+
 Salon Sınıfı
 Salon adı (adi), kapasitesi (kapasite) ve film bilgisi (film) ile bir salonu temsil eder.
 Müşteri ekleme (MusteriEkle) ve salon bilgilerini listeleme (Listele) gibi işlemleri gerçekleştirir.
 Kapasite dolarsa, yeni müşteri eklenemez.
+
 ---------------------------------
 Film Sınıfı
+
 ---------------------------------
+
 Film adı (adi), süresi (suresi) ve türü (turu) ile bir filmi temsil eder.
 Film ile ilişkilendirilmiş salonlar (salonlar) ve filme kaydolan müşteriler (musteriler) vardır.
 Film için uygun salon eklenebilir ve filme müşteri kaydedilebilir.
+
 ---------------------------------
 Musteri Sınıfı
+
 ---------------------------------
 Müşteri adı (adi), e-posta (email), telefon (telefon) gibi bilgileri tutar.
 Müşteri, bir salona kaydedilebilir ve bu salon ile ilişkilendirilir.
+
 ---------------------------------
 Main Sınıfı
+
 ---------------------------------
 Kullanıcıdan giriş alarak sinema salonu, film ve müşteri işlemlerini yönetir.
 Kullanıcıya menü seçenekleri sunarak ilgili işlemleri yapmasını sağlar.
